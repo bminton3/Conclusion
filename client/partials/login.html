@@ -1,5 +1,26 @@
+<nav class="navbar navbar-top-fixed" style="border-radius:0px;"> 
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li>
+        <div id="nav-logo">
+          <a href="/#/"><img border="0" alt="Conclusion" src="images/puzzle.png" width="100" height="100"></a>
+        </div>
+      </li>
+      <li>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="row">
+<div class="col-md-4"/>
 <div class="col-md-4">
-  <h1>Login</h2>
+    <div id="google_translate_element"></div>
+          <script type="text/javascript">
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+            }
+          </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <h2>Login</h2>
   <div ng-show="error" class="alert alert-danger"></div>
   <form class="form" ng-submit="login()">
     <div class="form-group">
@@ -12,6 +33,17 @@
       </div>
       <div>
         <button type="submit" class="btn btn-default" ng-disabled="disabled">Login</button>
+        <br>
+        <div>
+          <p>or <a href="#/register">register</a></p>
+        </div>
       </div>
   </form>
+  <div>
+  <h2>What is Conclusion?</h2>
+  <div id="video">
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+<div class="col-md-4"/>
 </div>
