@@ -1,0 +1,25 @@
+html, body
+{
+  height:100%;
+}
+
+body
+{
+  color:#40403F;
+  margin:0px;
+  font-family:'lucida grande',helvetica,sans-serif;
+  /*font size:14px;*/
+  font-size:0.9em;
+  background:#E1E2E3;
+}
+
+a:hover
+{
+  text-decoration:underline;
+}
+
+.form-group
+{
+  max-width:300px;
+}
+
