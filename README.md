@@ -16,7 +16,7 @@ user profile page
 migrate to AWS? (eliminate mongodb)
 finalize look and feel
 
-committing to GIT
+committing to GIT (you will have to do all 3 of these things each time)
 
 if file has been added:
 git add *
